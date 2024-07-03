@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: spartan ;
+}
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+p {
+    font-size: 16px;
+    color: rgb(110, 105, 105);
+    margin: 15px 0 20px 0;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+
+.secion-m1{
+    margin: 40px 0;
+}
+body {
+    width: 100%;
+}
+                           /** navbar **/
+
+.navbar{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+    
+
+.logo{
+   height: 60px;
+   width: 120px;
+   background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/428202315_1437897253773319_6213317764093183202_n.jpg?stp=dst-jpg_p206x206&_nc_cat=110&ccb=1-7&_nc_sid=510075&_nc_ohc=Yu_wv-9ApBYAX89cg__&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTIAWeJ-Mq-P63S7Kt119niVkog2C7CBxIfB9k0GwH6TQ&oe=65FB9C0C);
+    background-size: cover;
+    
+}
+
+.ul1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ul1 li {
+    list-style: none;
+    padding: 0 30px;
+    position: relative;
+    
+}
+
+.ul1 li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+    
+}
+
+
+.ul1 li a:hover, 
+.ul1 li a.active {
+    color: rgb(114, 233, 195);
+}
+ 
+/**
+.ul1 li a.active ::after{
+    content: " ";
+    position: absolute;
+    left: 30px;
+    bottom: -4px;
+    color: rgb(41, 155, 41) ;
+    width: 30%;
+    height: 2px;
+}
+**/
+
+
+
+                          /** hero part**/
+
+.hero{
+    background-image: url(https://media.istockphoto.com/id/1204638566/photo/portrait-of-beautiful-asian-muslim-woman-in-a-black-hijab-holding-multi-colored-shopping-bags.jpg?s=612x612&w=0&k=20&c=GtowOWRPKxHw5ET639j68C8Mrjk-QvwpdbgbN12jcz4=);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    
+}
+.hero h4 {
+    padding: 15 px;
+}
+.hero h1{
+    color: #088178;
+}
+.hero span button{
+   background-color: rgb(255, 204, 0);
+   padding: 14px 80px 14px 65px;
+   border: none;
+   color: #088178;
+   font-weight: 700;
+   font-size: 15px;
+}
+
+                    /** feature **/
+
+.features{
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+ 
+/** fbox 1 **/
+
+.fbox1{
+    width: 180px;
+    height: 200px;
+    background-image: url(https://www.ngi.eu/wp-content/uploads/sites/48/2021/01/Chatting-by-using-apps_04-1024x1024.jpg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+
+}
+
+.fbox1:hover{
+    box-shadow: 10px 10px 54px rgba(56, 48, 216, 0.1);
+}
+.fbox1 h6 {
+    position: absolute;
+    bottom: 15px;
+    left: 59px;
+    border-radius: 4px;
+    padding: 6px 8px 6px 8px;
+    color: #088178;
+    background-color: #f1b8c4;
+}
+
+/** fbox 2**/
+
+.fbox2{
+    width: 180px;
+    height: 200px;
+    background-image: url(https://www.pixcrafter.com/wp-content/uploads/2023/05/vector-delivery-boy-illustration.jpg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+
+}
+
+.fbox2:hover{
+    box-shadow: 10px 10px 54px rgba(54, 48, 216, 0.1);
+}
+
+.fbox2 h6 {
+    position: absolute;
+    bottom: 15px;
+    left: 59px;
+    border-radius: 4px;
+    padding:  6px 8px 6px 8px;
+    color: #088178;
+    background-color: #fdffab;
+}
+
+/** fbox 3**/
+
+
+
+.fbox3{
+    width: 180px;
+    height: 200px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4J_r4f4XdjA-MJSW-ld09GKioCTMtddofXgeCEZ_mTYGzvySbyaRM4IOkDOpvPX88sYU&usqp=CAU);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.fbox3:hover {
+    box-shadow: 10px 10px 54px rgba(54, 48 , 216, 0.1);
+}
+
+.fbox3 h6{
+    position: absolute;
+    bottom: 15px;
+    left: 59px;
+    border-radius: 4px;
+    padding:  6px 8px 6px 8px;
+    color: #088178;
+    background-color: rgb(252, 236, 172);
+
+}
+
+/** fbox 4**/
+
+.fbox4 {
+    width: 180px;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/736x/14/19/ed/1419edd30d3f3dea32345e9d6313dbe6.jpg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+.fbox4:hover{
+    box-shadow: 10px 10px 54px rgba(54, 48 , 216, 0.1);
+
+}
+
+.fbox4 h6{
+    position: absolute;
+    bottom: 15px;
+    left: 59px;
+    border-radius: 4px;
+    padding:  6px 8px 6px 8px;
+    color: #088178;
+    background-color: #e3ffd7;
+
+}
+
+/** fbox 5**/
+
+.fbox5 {
+    width: 180px;
+    height: 200px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/809/771/original/woman-in-office-clothes-working-on-laptop-illustration-in-flat-cartoon-style-vector.jpg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+.fbox5:hover{
+    box-shadow: 10px 10px 54px rgba(54, 48 , 216, 0.1);
+}
+
+.fbox5 h6{
+    position: absolute;
+    bottom: 15px;
+    left: 59px;
+    border-radius: 4px;
+    padding:  6px 8px 6px 8px;
+    color: #088178;
+    background-color: #dfb9e8;
+
+}
+
+                /** products **/
+
+.products{
+    text-align: center;
+    padding: 40px 80px;
+}
+
+.pro-container{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.pro-1{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+
+}
+.pro-1:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+
+.pro-1 .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+
+.pro-1 .des span{
+    color: #606063;
+    font-size: 12px;
+
+}
+
+.pro-1 .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+.pro-1 .des .star{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+
+}
+
+.pro-1 .des h4{
+    padding-top: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #088178;
+}
+.pro-1 .cart{
+    
+   position: absolute;
+   bottom: 20px;
+   right: 10px;
+   color: #088178;
+   
+}
+.pro-1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+ 
